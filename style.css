@@ -1,0 +1,6 @@
+@import url(./global/index..css);
+@import url(./components/header/header.css);
+@import url(./components/logo/logo.css);
+@import url(./components/navbar/navbar.css);
+@import url(./components/menu/menu.css);
+@import url(./components/home/home.css);

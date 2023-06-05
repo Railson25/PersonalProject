@@ -1,0 +1,12 @@
+.navbar__link{
+    font-size: 1.7rem;
+    color: var(--text-bg-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+}
+
+.navbar__link:hover,
+.active {
+    color: var(--main-bg-color);
+}
