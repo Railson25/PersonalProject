@@ -57,3 +57,12 @@
 .button-box__btn:hover:before {
     width: 100%;
 }
+
+.button-box__btn_btns {
+    display: inline-block;
+    width: 15rem;
+}
+
+.button-box__btn_btns_link::before {
+    background: var(--second-bg-color);
+}
