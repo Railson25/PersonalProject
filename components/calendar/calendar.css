@@ -1,0 +1,10 @@
+.year{
+    font-size: 1.5rem;
+    color: var(--main-bg-color); 
+    padding-bottom: .5rem;
+ }
+
+.year__span {
+    padding-right: .5rem;
+} 
+
