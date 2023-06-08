@@ -66,3 +66,7 @@
 .button-box__btn_btns_link::before {
     background: var(--second-bg-color);
 }
+
+.button-box__form {
+    cursor: pointer;
+}
