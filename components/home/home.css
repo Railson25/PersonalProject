@@ -9,6 +9,7 @@
 
 .home__content {
     max-width: 60rem;
+    z-index: 99;
     
 }
 
