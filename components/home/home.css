@@ -35,6 +35,25 @@
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px var(--main-bg-color);
+    background-image: linear-gradient(var(--main-bg-color), var(--main-bg-color));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -33rem 0;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+}
+
+.home__text-animated_text::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 2px solid var(--main-bg-color);
+    z-index: -1;
+    animation: homeCursorText 6s linear infinite;
+    animation-delay: 2s;
 }
 
 .home__description {

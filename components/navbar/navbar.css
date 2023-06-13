@@ -1,3 +1,7 @@
+.navbar {
+    position: relative;
+}
+
 .navbar__link{
     font-size: 1.7rem;
     color: var(--text-bg-color);
