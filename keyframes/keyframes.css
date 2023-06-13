@@ -20,3 +20,10 @@
         opacity: 0;
      }
 }
+
+/* About spinner animation  */
+@keyframes aboutSpinner{
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
