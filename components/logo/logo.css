@@ -1,4 +1,5 @@
 .logo {
+    position: relative;
     font-size: 2.5rem;
     color: var(--text-bg-color);
     font-weight: 600;
