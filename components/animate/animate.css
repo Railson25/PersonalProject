@@ -8,9 +8,14 @@
     z-index: 98;
 }
 
+.animate.home-img {
+    width: 50%;
+}
+
 .logo .animate,
 .navbar .animate,
-#menu-icon .animate {
+#menu-icon .animate,
+.home.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
