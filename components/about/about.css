@@ -45,10 +45,13 @@
 }
 
 .about__content_title {
+    position: relative;
+    display: inline-block;
     font-size: 2.6rem;
 }
 
 .about__content_description{
+    position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 } 
