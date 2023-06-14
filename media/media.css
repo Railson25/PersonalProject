@@ -19,6 +19,12 @@
     }
 }
 
+@media (max-width:850px) {
+    .animate.home-img {
+        width: 55%;
+    }
+}
+
 @media (max-width: 760px) {
     .header {
         background: var(-bg-color);
