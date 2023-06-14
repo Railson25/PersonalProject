@@ -7,6 +7,10 @@
     background: var(--second-bg-color);
 }
 
+.footer__box, .footer__iconTop {
+    position: relative;
+}
+
 .footer__text {
     font-size: 1.6rem;
 }
