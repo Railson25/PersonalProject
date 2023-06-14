@@ -4,6 +4,16 @@
     background: var(--second-bg-color);
 }
 
+.skills h2 {
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills__box {
+    position: relative;
+}
+
 .skills__row {
    display: flex;
    flex-wrap: wrap;
@@ -15,6 +25,8 @@
 }
 
 .skills__title {
+    position: relative;
+    display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
 }
